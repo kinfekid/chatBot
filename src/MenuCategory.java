@@ -3,14 +3,14 @@ import java.util.List;
 
 class MenuCategory {
     private String categoryName;
-    private List<FoodMenu> items;
+    private List<MenuItem> items;
 
     public MenuCategory(String categoryName) {
         this.categoryName = categoryName;
         this.items = new ArrayList<>();
     }
 
-    public void addItem(FoodMenu item) {
+    public void addItem(MenuItem item) {
         items.add(item);
     }
 
@@ -18,7 +18,7 @@ class MenuCategory {
         return categoryName;
     }
 
-    public List<FoodMenu> getItems() {
+    public List<MenuItem> getItems() {
         return items;
     }
 }
