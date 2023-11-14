@@ -1,3 +1,4 @@
+package RestaurantMenu;
 import java.util.Scanner;
 import java.util.List;
 

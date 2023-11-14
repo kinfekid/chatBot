@@ -1,3 +1,4 @@
+package StudentGrade;
 import java.util.HashMap;
 import java.util.Map;
 
