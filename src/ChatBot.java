@@ -14,10 +14,13 @@ public class ChatBot {
 
             System.out.println("if your answer service  enter service name");
             String yourName = name.nextLine();
+            System.out.println("enter your phone address : ");
             String phoneNumber = name.nextLine();
-            System.out.println("enter your phone address : " +phoneNumber);
+            System.out.println("enter your email address : ");
             String email = name.nextLine();
-            System.out.println("enter your email address : " +email);
+            System.out.println("good: " );
+
+            System.out.println("do you need more help:");
         }
     }
 }
